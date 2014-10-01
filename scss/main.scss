@@ -1,0 +1,47 @@
+body {
+    font-family: 'Josefin Sans', sans-serif;
+    padding: 30px;
+    background-color: green;
+    color: white;
+}
+
+h2 {
+    text-align: center;
+}
+
+ul {
+    list-style: none;
+    
+    & li {
+        margin: 40px 0 20px 0;
+        clear: both;
+    }
+    
+        & a {
+            display: block;
+            height: 30px;
+            font-size: 20px;
+            clear: both;
+            background: white;
+            padding: 10px;
+            text-decoration: none;
+            color: green;
+        }
+            
+            & div {
+                float: right;
+                display: block;
+                margin-right: 20px;
+                clear: both;
+            }
+
+        & .paragraph {
+            clear: both;
+            margin: 10px 0;
+        }
+}
+
+.active {
+    color: grey;
+}
+
